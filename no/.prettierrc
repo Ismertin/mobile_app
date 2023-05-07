@@ -1,0 +1,18 @@
+{
+  "parser": "babel",
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "useTabs": true,
+  "singleQuote": true,
+  "semi": false,
+  "arrowParens": "avoid",
+  "importOrder": [
+    "",
+    "/routers/",
+    "/middleware/",
+    "^../(.)",
+    "^/\\(\\.\\)"
+  ],
+  "importOrderSeparation": true,
+  "ImportOrderSpecifiers": true
+}
