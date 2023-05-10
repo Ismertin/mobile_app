@@ -1,4 +1,5 @@
 import authRoutes from './app/auth/auth.routes.js'
+import { prisma } from './app/prisma.js'
 import 'colors'
 import dotenv from 'dotenv'
 import express from 'express'
@@ -16,6 +17,8 @@ async function main() {
 
 		app.use(express.json())
 		app.use(`/api/auth`, authRoutes)
+
+		const PORT = process.env.PORT || 5000
 
 		app.listen(PORT, () => {
 			console.log(
