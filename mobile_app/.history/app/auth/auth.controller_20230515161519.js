@@ -18,7 +18,7 @@ export const authUser = asyncHandler(async (req, res) => {
 			email
 		}
 	})
-
+}
 	const isValidPassword = await verify(user.password, password)
 
 	if (user && isValidPassword) {

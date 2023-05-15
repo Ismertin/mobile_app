@@ -29,6 +29,8 @@ export const authUser = asyncHandler(async (req, res) => {
 		throw new Error('Email and password are not correct')
 	}
 })
+it('should return 401 if email and password are not correct', async () => {
+	
 
 // @desc    Register user
 // @route   POST /api/auth/register
