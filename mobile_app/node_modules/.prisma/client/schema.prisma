@@ -21,6 +21,15 @@ model User {
   images   String[]
 }
 
+model Workout {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  name      String
+  exercises Exercise[]
+}
+
 model Exercise {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now()) @map("created_at")
@@ -28,16 +37,7 @@ model Exercise {
 
   name     String
   times    Int
-  iconPath String @map("path_path")
+  iconPath String @map("icon_path")
 
-  workout Workout[]
-}
-
-model Workout {
-  id        Int      @id @default(autoincrement())
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
-  name      String
-
-  exercises Exercise[]
+  workouts Workout[]
 }

@@ -8,7 +8,7 @@ import { prisma } from '../prisma.js'
 
 export const createNewWorkout = asyncHandler(async (req, res) => {
 	const { name, exerciseIds } = req.body
-	const workout = await prisma.exercise.create({
+	const workout = await prisma.workout.create({
 		data: {
 			name,
 			exercises: {
@@ -24,7 +24,7 @@ export const createNewWorkout = asyncHandler(async (req, res) => {
 //@access Private
 
 export const getWorkout = asyncHandler(async (req, res) => {
-	const workouts = await prisma.workout.findUnique({
+	const workout = await prisma.workout.findUnique({
 		where: {
 			id: +req.params.id
 		},
@@ -32,10 +32,14 @@ export const getWorkout = asyncHandler(async (req, res) => {
 			exercises: true
 		}
 	})
+	if (!workout) {
+		res.status(404)
+		throw new Error('Workout not found')
+	}
 
 	const minutes = Math.ceil(workout.exercises.length * 3, 7)
 
-	res.json({ ...workouts, minutes })
+	res.json({ ...workout, minutes })
 })
 
 export const getWorkouts = asyncHandler(async (req, res) => {
@@ -60,7 +64,7 @@ export const updateWorkout = asyncHandler(async (req, res) => {
 			data: {
 				name,
 				exercises: {
-					connect: exerciseIds
+					set: exerciseIds.map(id => ({ id: +id }))
 				}
 			}
 		})
@@ -71,8 +75,8 @@ export const updateWorkout = asyncHandler(async (req, res) => {
 	}
 })
 
-//@desc delete exercises
-//@descr delete  /api/exercises/:id
+//@desc delete workouts
+//@descr delete  /api/workouts/:id
 //@access Private
 
 export const deleteWorkout = asyncHandler(async (req, res) => {
