@@ -20,8 +20,8 @@ model User {
   password String
   images   String[]
 
-  exerciseLog ExerciseLog[]
-  workoutLog  WorkoutLog[]
+  exerciseLogs ExerciseLog[]
+  workoutLogs  WorkoutLog[]
 }
 
 model Workout {
@@ -29,9 +29,9 @@ model Workout {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  name       String
-  exercises  Exercise[]
-  workoutLog WorkoutLog[]
+  name        String
+  exercises   Exercise[]
+  workoutLogs WorkoutLog[]
 }
 
 model Exercise {
@@ -43,7 +43,8 @@ model Exercise {
   times    Int
   iconPath String @map("icon_path")
 
-  workouts      Workout[]
+  workouts Workout[]
+
   exerciseLog   ExerciseLog? @relation(fields: [exerciseLogId], references: [id])
   exerciseLogId Int?         @map("exercise_log_id")
 }
@@ -55,14 +56,16 @@ model ExerciseLog {
 
   isCompleted Boolean        @default(false) @map("is_completed")
   times       ExerciseTime[]
-  user        User?          @relation(fields: [userId], references: [id])
-  userId      Int?           @map("user_id")
+
+  user   User? @relation(fields: [userId], references: [id])
+  userId Int?  @map("user_id")
 
   workoutLog   WorkoutLog? @relation(fields: [workoutLogId], references: [id])
   workoutLogId Int?        @map("workout_log_id")
-  exercise     Exercise[]
 
-  @@map("exercise_logs")
+  exercise Exercise[]
+
+  @@map("Exercise_log")
 }
 
 model ExerciseTime {
@@ -77,7 +80,7 @@ model ExerciseTime {
   exerciseLog   ExerciseLog? @relation(fields: [exerciseLogId], references: [id])
   exerciseLogId Int?         @map("exercise_log_id")
 
-  @@map("exercise_times")
+  @@map("Exercise_time")
 }
 
 model WorkoutLog {
@@ -85,12 +88,15 @@ model WorkoutLog {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  isCompleted Boolean       @default(false) @map("is_completed")
-  exerciseLog ExerciseLog[]
-  user        User?         @relation(fields: [userId], references: [id])
-  userId      Int?          @map("user_id")
-  workout     Workout?      @relation(fields: [workoutId], references: [id])
-  workoutId   Int?          @map("workout_id")
+  isCompleted Boolean @default(false) @map("is_completed")
 
-  @@map("workout_log")
+  exerciseLogs ExerciseLog[]
+
+  user   User? @relation(fields: [userId], references: [id])
+  userId Int?  @map("user_id")
+
+  workout   Workout? @relation(fields: [workoutId], references: [id])
+  workoutId Int?     @map("workout_id")
+
+  @@map("Workout_log")
 }

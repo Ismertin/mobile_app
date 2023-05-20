@@ -2,12 +2,49 @@ import asyncHandler from 'express-async-handler'
 
 import { prisma } from '../prisma.js'
 
-// @desc    create new workout
+// @desc    Get workouts
 // @route   GET /api/workouts
 // @access  Private
+export const getWorkouts = asyncHandler(async (req, res) => {
+	const workouts = await prisma.workout.findMany({
+		orderBy: {
+			createdAt: 'desc'
+		},
+		include: {
+			exercises: true
+		}
+	})
 
+	res.json(workouts)
+})
+
+// @desc    Get workout
+// @route   GET /api/workouts/:id
+// @access  Private
+export const getWorkout = asyncHandler(async (req, res) => {
+	const workout = await prisma.workout.findUnique({
+		where: { id: +req.params.id },
+		include: {
+			exercises: true
+		}
+	})
+
+	if (!workout) {
+		res.status(404)
+		throw new Error('Workout not found!')
+	}
+
+	const minutes = Math.ceil(workout.exercises.length * 3.7)
+
+	res.json({ ...workout, minutes })
+})
+
+// @desc    Create new workout
+// @route 	POST /api/workouts
+// @access  Private
 export const createNewWorkout = asyncHandler(async (req, res) => {
 	const { name, exerciseIds } = req.body
+
 	const workout = await prisma.workout.create({
 		data: {
 			name,
@@ -19,43 +56,12 @@ export const createNewWorkout = asyncHandler(async (req, res) => {
 	res.json(workout)
 })
 
-//@desc GET exercises
-//@descr GET /api/exercises
-//@access Private
-
-export const getWorkout = asyncHandler(async (req, res) => {
-	const workout = await prisma.workout.findUnique({
-		where: {
-			id: +req.params.id
-		},
-		include: {
-			exercises: true
-		}
-	})
-	if (!workout) {
-		res.status(404)
-		throw new Error('Workout not found')
-	}
-
-	const minutes = Math.ceil(workout.exercises.length * 3, 7)
-
-	res.json({ ...workout, minutes })
-})
-
-export const getWorkouts = asyncHandler(async (req, res) => {
-	const workouts = await prisma.workout.findMany({
-		include: {
-			exercises: true
-		}
-	})
-	res.json(workouts)
-})
-//@desc update workout
-//@descr patch /api/workouts/:id
-//@access Private
-
+// @desc    Update workout
+// @route 	PUT /api/workouts/:id
+// @access  Private
 export const updateWorkout = asyncHandler(async (req, res) => {
 	const { name, exerciseIds } = req.body
+
 	try {
 		const workout = await prisma.workout.update({
 			where: {
@@ -68,17 +74,17 @@ export const updateWorkout = asyncHandler(async (req, res) => {
 				}
 			}
 		})
+
 		res.json(workout)
 	} catch (error) {
-		res.status(400)
-		throw new Error('Exercise not found')
+		res.status(404)
+		throw new Error('Workout not found!')
 	}
 })
 
-//@desc delete workouts
-//@descr delete  /api/workouts/:id
-//@access Private
-
+// @desc    Delete workout
+// @route 	DELETE /api/workouts/:id
+// @access  Private
 export const deleteWorkout = asyncHandler(async (req, res) => {
 	try {
 		const workout = await prisma.workout.delete({
@@ -86,9 +92,10 @@ export const deleteWorkout = asyncHandler(async (req, res) => {
 				id: +req.params.id
 			}
 		})
-		res.json({ message: 'Workout deleted' })
+
+		res.json({ message: 'Workout deleted!' })
 	} catch (error) {
 		res.status(404)
-		throw new Error('Workout not found')
+		throw new Error('Workout not found!')
 	}
 })

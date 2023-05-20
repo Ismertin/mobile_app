@@ -5,8 +5,8 @@ import { protect } from '../middleware/auth.middleware.js'
 import {
 	createNewWorkout,
 	deleteWorkout,
-	getWorkouts,
 	getWorkout,
+	getWorkouts,
 	updateWorkout
 } from './workout.controller.js'
 
@@ -16,8 +16,8 @@ router.route('/').post(protect, createNewWorkout).get(protect, getWorkouts)
 
 router
 	.route('/:id')
-	.put(protect, updateWorkout)
 	.get(protect, getWorkout)
+	.put(protect, updateWorkout)
 	.delete(protect, deleteWorkout)
 
 export default router
