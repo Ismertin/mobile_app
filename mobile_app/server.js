@@ -18,7 +18,7 @@ const app = express()
 
 async function main() {
 	if (process.env.NODE_ENV === 'development') app.use(morgan('dev'))
-
+	app.use(cors())
 	app.use(express.json())
 
 	const __dirname = path.resolve()
