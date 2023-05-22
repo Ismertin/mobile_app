@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e820d937-0bc8-46a1-8098-b7b57021602b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/machinet.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_app/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QA63WySYnPpo4G2vNQXAnb1RhS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ismertin/Документы/GitHub/mobile_app/Frontend/mobile-app_frontend/src/assets/styles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e820d937-0bc8-46a1-8098-b7b57021602b" name="Changes" comment="" />
+      <created>1684783839756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684783839756</updated>
+      <workItem from="1684783844533" duration="683000" />
+      <workItem from="1684785589787" duration="686000" />
+      <workItem from="1684786283696" duration="1527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="127099">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="127099" />
+              <option name="initiateTms" value="1684785763938" />
+              <option name="request" value="как в sass создать перемнные со значениями" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Для создания переменных со значениями в Sass используется следующий синтаксис:&#10;&#10;```&#10;$имя-переменной: значение;&#10;```&#10;&#10;Например, чтобы создать переменную `$primary-color` со значением `#007bff`, нужно написать:&#10;&#10;```sass&#10;$primary-color: #007bff;&#10;```&#10;&#10;После этого переменную можно использовать в других правилах стилей, например:&#10;&#10;```sass&#10;body {&#10;  background-color: $primary-color;&#10;}&#10;``` &#10;&#10;Чтобы применить изменения, нужно сохранить файл `src/style.sass`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1684785779743" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="332976">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="332976" />
+              <option name="initiateTms" value="1684786003112" />
+              <option name="request" value="а в scss?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="В SCSS синтаксис создания переменных со значениями аналогичен Sass:&#10;&#10;```&#10;$имя-переменной: значение;&#10;```&#10;&#10;Например, чтобы создать переменную `$primary-color` со значением `#007bff`, нужно написать:&#10;&#10;```scss&#10;$primary-color: #007bff;&#10;```&#10;&#10;После этого переменную можно использовать в других правилах стилей, например:&#10;&#10;```scss&#10;body {&#10;  background-color: $primary-color;&#10;}&#10;```&#10;&#10;Чтобы применить изменения, нужно сохранить файл `src/style.scss`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1684786020146" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
