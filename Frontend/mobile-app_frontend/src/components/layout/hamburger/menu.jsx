@@ -3,8 +3,7 @@ import cn  from 'clsx'
 
 const Menu = (isShow) => {
     return (
-        <nav className={`${styles.menu} ${isComponentVisible ? styles.show: ''}`}>
-
+        <nav className={cn(styles.menu, {[styles.show]: isShow})}>
         </nav>
     )
 }

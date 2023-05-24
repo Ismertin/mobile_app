@@ -6,8 +6,6 @@ const App = () => {
   return (
     <Layout>
       <div>
-        <Header backLink="/"/>
-        <p>Workouts</p>
       </div>
     </Layout>
   )
