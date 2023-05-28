@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e820d937-0bc8-46a1-8098-b7b57021602b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152418.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152419.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152426.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152432.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152435.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152438.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152452.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152453.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230522231846.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152408.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152410.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/public/app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230522222303.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +30,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ismertin/Документы/GitHub/mobile_app/Frontend/mobile-app_frontend",
+    "last_opened_file_path": "/home/ismertin/Документы/mobile_app/Frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,11 +78,24 @@
       <workItem from="1684837699498" duration="1637000" />
       <workItem from="1684844705419" duration="5686000" />
       <workItem from="1684869348953" duration="2798000" />
+      <workItem from="1685299135918" duration="190000" />
+      <workItem from="1685299338883" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
