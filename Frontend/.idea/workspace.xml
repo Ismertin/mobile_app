@@ -4,37 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e820d937-0bc8-46a1-8098-b7b57021602b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152418.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152419.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152426.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152432.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152435.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152438.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152452.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152453.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230522231846.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152408.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152410.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/public/app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettierrc" afterDir="false" />
+    <list default="true" id="2cdac2f6-f845-4405-a43f-64f51820ae5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230522222303.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-app_frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230522222303.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152418.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152419.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152426.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152432.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152435.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152438.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152452.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152453.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230522231846.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152408.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152410.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/components/layout/header/Header_20230524150043.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/components/layout/header/Header_20230524150609.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/machinet.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/public/app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/hooks/useAuth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/Layout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/Hamburger.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/Hamburger.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/menu.data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/menu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettierrc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,356 +57,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2QA63WySYnPpo4G2vNQXAnb1RhS" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2QPWheZTmAfQB0ocloA7BvLggUr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ismertin/Документы/GitHub/mobile_app/Frontend/mobile-app_frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/home/ismertin/Документы/GitHub/mobile_app/Frontend/mobile-app_frontend/node_modules/prettier",
-    "settings.editor.selected.configurable": "editing.templates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ismertin/Документы/GitHub/mobile_app/Frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.rcb.reactComponents" value="false" />
-        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.reactComponents" value="true" />
+        <entry key="com.haulmont.rcb.reactInspector" value="true" />
       </map>
     </option>
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mobile-app_frontend" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/mobile-app_frontend/src/components" />
-      <recent name="$PROJECT_DIR$/mobile-app_frontend/public" />
-      <recent name="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e820d937-0bc8-46a1-8098-b7b57021602b" name="Changes" comment="" />
-      <created>1684783839756</created>
+      <changelist id="2cdac2f6-f845-4405-a43f-64f51820ae5c" name="Changes" comment="" />
+      <created>1685255818548</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684783839756</updated>
-      <workItem from="1684783844533" duration="683000" />
-      <workItem from="1684785589787" duration="686000" />
-      <workItem from="1684786283696" duration="1527000" />
-      <workItem from="1684837699498" duration="1637000" />
-      <workItem from="1684844705419" duration="5686000" />
-      <workItem from="1684869348953" duration="2798000" />
+      <updated>1685255818548</updated>
+      <workItem from="1685255823448" duration="571000" />
+      <workItem from="1685256467868" duration="198000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
-    <option name="historyDtoById">
-      <map>
-        <entry key="0609bb">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="0609bb" />
-              <option name="initiateTms" value="1684869702910" />
-              <option name="request" value="import React from &quot;react&quot;;&#10;import { FaUser, BiMenuAltRight } from &quot;react-icons&quot;;&#10;&#10;const header = () =&gt; {&#10;  return (&#10;    &lt;div&gt;&#10;      &lt;BiMenuAltRight className=&quot;menu_icon&quot; /&gt;&#10;      &lt;FaUser className=&quot;user_icon&quot; /&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;export default header;&#10;" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Ответ: Этот код экспортирует компонент `header`, который отображает иконки меню и пользователя. Чтобы использовать этот компонент в другом компоненте, вы можете импортировать его с помощью следующей строки:&#10;&#10;```jsx&#10;import Header from './path/to/header';&#10;```&#10;&#10;Затем вы можете использовать компонент `Header` внутри другого компонента, например, так:&#10;&#10;```jsx&#10;import React from 'react';&#10;import Header from './path/to/header';&#10;&#10;const MyComponent = () =&gt; {&#10;  return (&#10;    &lt;div&gt;&#10;      &lt;Header /&gt;&#10;      &lt;p&gt;Содержимое моего компонента&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default MyComponent;&#10;```&#10;&#10;В этом примере мы импортировали компонент `Header` и использовали его внутри компонента `MyComponent`. Компонент `Header` будет отображаться перед содержимым компонента `MyComponent`." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684869743367" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="0d20bc">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="0d20bc" />
-              <option name="initiateTms" value="1684869686445" />
-              <option name="isStopped" value="true" />
-              <option name="request" value="import React from &quot;react&quot;;&#10;import { FaUser, BiMenuAltRight } from &quot;react-icons&quot;;&#10;&#10;const header = () =&gt; {&#10;  return (&#10;    &lt;div&gt;&#10;      &lt;BiMenuAltRight className=&quot;menu_icon&quot; /&gt;&#10;      &lt;FaUser className=&quot;user_icon&quot; /&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;export default header;&#10;" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Данный код экспортирует компонент `header`, который отображает две иконки из библиотеки `react-icons`: `BiMenuAltRight`" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="127099">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="127099" />
-              <option name="initiateTms" value="1684785763938" />
-              <option name="request" value="как в sass создать перемнные со значениями" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Для создания переменных со значениями в Sass используется следующий синтаксис:&#10;&#10;```&#10;$имя-переменной: значение;&#10;```&#10;&#10;Например, чтобы создать переменную `$primary-color` со значением `#007bff`, нужно написать:&#10;&#10;```sass&#10;$primary-color: #007bff;&#10;```&#10;&#10;После этого переменную можно использовать в других правилах стилей, например:&#10;&#10;```sass&#10;body {&#10;  background-color: $primary-color;&#10;}&#10;``` &#10;&#10;Чтобы применить изменения, нужно сохранить файл `src/style.sass`." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684785779743" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="1f9867">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="1f9867" />
-              <option name="initiateTms" value="1684869369068" />
-              <option name="request" value="import React from &quot;react&quot;;&#10;import styles from &quot;assets/styles/index.scss&quot;&#10;import Header from &quot;./components/layout/header/Header.jsx&quot;;&#10;&#10;const App = () =&gt; {&#10;  return(&#10;      &lt;div&gt;&lt;h1&gt;Hello-World&lt;/h1&gt;&#10;  &lt;/div&gt;&#10;      &lt;div&gt;&#10;          &lt;Header/&gt;&#10;      &lt;/div&gt;&#10;)&#10;};&#10;export default App;&#10;Не работает, просто белый экран, в чём может быть дело" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Есть несколько возможных причин, почему ваш компонент `App` не работает и отображает только белый экран:&#10;&#10;1. Ошибка в импорте стилей. В вашем компоненте `App` вы импортируете стили из файла `index.scss`, но возможно, что путь к этому файлу указан неверно. Убедитесь, что путь к файлу `index.scss` указан правильно и что файл существует.&#10;&#10;2. Ошибка в импорте компонента `Header`. В вашем компоненте `App` вы импортируете компонент `Header` из файла `Header.jsx`, но возможно, что путь к этому файлу указан неверно. Убедитесь, что путь к файлу `Header.jsx` указан правильно и что файл существует.&#10;&#10;3. Ошибка в коде компонента `Header`. Если компонент `Header` содержит ошибку, то это может привести к тому, что ваш компонент `App` не будет работать. Убедитесь, что код компонента `Header` написан правильно и не содержит ошибок.&#10;&#10;4. Ошибка в коде компонента `App`. Если в вашем компоненте `App` есть ошибка, то это может привести к тому, что он не будет работать. Убедитесь, что код компонента `App` написан правильно и не содержит ошибок.&#10;&#10;5. Ошибка в настройках сборки проекта. Если вы используете инструменты сборки, такие как Webpack или Create React App, то возможно, что настройки сборки не правильно настроены. Убедитесь, что настройки сборки правильно настроены и что все необходимые зависимости установлены.&#10;&#10;6. Проблема с браузером. Если все остальное работает правильно, то возможно, что проблема связана с браузером. Попробуйте открыть вашу страницу в другом браузере или очистить кэш браузера.&#10;&#10;Надеюсь, эти советы помогут вам решить проблему с вашим компонентом `App`." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684869439567" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="2af433">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="2af433" />
-              <option name="initiateTms" value="1684844269385" />
-              <option name="request" value="Можешь посоветовать, я изучаю фронтенд" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Конечно, я могу дать несколько советов по изучению фронтенда:&#10;&#10;1. Изучай основы HTML, CSS и JavaScript. Это языки, на которых основан веб, и без них невозможно создать веб-сайт.&#10;&#10;2. Изучай фреймворки и библиотеки, такие как React, Angular и Vue. Они помогут ускорить разработку и сделать код более организованным.&#10;&#10;3. Практикуйся в написании кода. Создавай свои проекты и решай задачи, чтобы улучшить свои навыки.&#10;&#10;4. Следи за новыми технологиями и трендами в отрасли. Фронтенд постоянно меняется, и важно быть в курсе последних новостей и разработок.&#10;&#10;5. Общайся с другими разработчиками. Участвуй в сообществах и форумах, чтобы получать обратную связь и учиться у других.&#10;&#10;6. Не забывай про дизайн. Хороший фронтенд-разработчик должен иметь понимание дизайна и уметь создавать красивые и удобные интерфейсы.&#10;&#10;Надеюсь, эти советы помогут тебе в изучении фронтенда. Удачи!" />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684844326913" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="2c3a45">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="2c3a45" />
-              <option name="initiateTms" value="1684869872191" />
-              <option name="request" value="как настроить prettier в webstorm на новый стандарт Es7 без зкрывающих ;" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Чтобы настроить Prettier в WebStorm на новый стандарт ES7 без точек с запятой, вам нужно выполнить следующие шаги:&#10;&#10;1. Установите Prettier в ваш проект с помощью npm или yarn:&#10;&#10;   ```&#10;   npm install prettier --save-dev&#10;   ```&#10;&#10;   или&#10;&#10;   ```&#10;   yarn add prettier --dev&#10;   ```&#10;&#10;2. Создайте файл `.prettierrc` в корневой папке вашего проекта и добавьте в него следующий код:&#10;&#10;   ```json&#10;   {&#10;     &quot;semi&quot;: false,&#10;     &quot;singleQuote&quot;: true,&#10;     &quot;trailingComma&quot;: &quot;es5&quot;&#10;   }&#10;   ```&#10;&#10;   Этот код настраивает Prettier на использование одинарных кавычек вместо двойных, отключает точки с запятой и устанавливает запятые в конце строк только для массивов и объектов, созданных в стиле ES5.&#10;&#10;3. Откройте настройки WebStorm и перейдите в раздел `Languages &amp; Frameworks` &gt; `JavaScript` &gt; `Prettier`.&#10;&#10;4. Установите флажок `Enable` и выберите опцию `Package` в качестве источника Prettier.&#10;&#10;5. Укажите путь к установленному пакету Prettier в вашем проекте. Например, если вы установили Prettier с помощью npm, то путь будет выглядеть так: `node_modules/prettier`.&#10;&#10;6. Нажмите кнопку `Apply` и закройте настройки.&#10;&#10;Теперь Prettier будет использовать настройки из файла `.prettierrc` при форматировании вашего кода в WebStorm. Если вы хотите форматировать код вручную, то вы можете нажать комбинацию клавиш `Ctrl + Alt + Shift + P` (на Windows и Linux) или `Cmd + Option + Shift + P` (на Mac) для вызова Prettier." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684869940984" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="332976">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="332976" />
-              <option name="initiateTms" value="1684786003112" />
-              <option name="request" value="а в scss?" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="В SCSS синтаксис создания переменных со значениями аналогичен Sass:&#10;&#10;```&#10;$имя-переменной: значение;&#10;```&#10;&#10;Например, чтобы создать переменную `$primary-color` со значением `#007bff`, нужно написать:&#10;&#10;```scss&#10;$primary-color: #007bff;&#10;```&#10;&#10;После этого переменную можно использовать в других правилах стилей, например:&#10;&#10;```scss&#10;body {&#10;  background-color: $primary-color;&#10;}&#10;```&#10;&#10;Чтобы применить изменения, нужно сохранить файл `src/style.scss`." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684786020146" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="3bd547">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="3bd547" />
-              <option name="initiateTms" value="1684846937352" />
-              <option name="request" value="как мне использовать react-icons" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Для использования библиотеки React Icons вам нужно выполнить следующие шаги:&#10;&#10;1. Установите библиотеку React Icons с помощью npm или yarn:&#10;&#10;   ```&#10;   npm install react-icons&#10;   ```&#10;&#10;   или&#10;&#10;   ```&#10;   yarn add react-icons&#10;   ```&#10;&#10;2. Импортируйте нужные иконки из библиотеки в ваш компонент:&#10;&#10;   ```jsx&#10;   import { FaGithub } from 'react-icons/fa';&#10;   ```&#10;&#10;3. Используйте импортированные иконки в вашем компоненте:&#10;&#10;   ```jsx&#10;   const MyComponent = () =&gt; {&#10;     return (&#10;       &lt;div&gt;&#10;         &lt;h1&gt;My Component&lt;/h1&gt;&#10;         &lt;FaGithub /&gt;&#10;       &lt;/div&gt;&#10;     );&#10;   };&#10;   ```&#10;&#10;   В этом примере мы импортировали иконку FaGithub из библиотеки React Icons и использовали ее внутри компонента MyComponent.&#10;&#10;   Вы также можете настроить размер иконки и ее цвет, используя стили CSS:&#10;&#10;   ```jsx&#10;   const MyComponent = () =&gt; {&#10;     return (&#10;       &lt;div&gt;&#10;         &lt;h1&gt;My Component&lt;/h1&gt;&#10;         &lt;FaGithub size={32} color=&quot;#333&quot; /&gt;&#10;       &lt;/div&gt;&#10;     );&#10;   };&#10;   ```&#10;&#10;   В этом примере мы установили размер иконки равным 32 пикселям и цвет иконки равным #333.&#10;&#10;Надеюсь, это поможет вам использовать библиотеку React Icons в вашем проекте." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684847001690" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="524c4c">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="524c4c" />
-              <option name="initiateTms" value="1684843072046" />
-              <option name="request" value="Расскажи мне историю как человек стал програмистои" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="История того, как человек стал программистом, начинается еще в середине прошлого века, когда появились первые компьютеры. В то время программирование было очень сложным и трудоемким процессом, и программистами были в основном математики и инженеры.&#10;&#10;С течением времени компьютеры стали все более доступными и распространенными, и программирование стало более популярным. В 1980-х годах появились первые персональные компьютеры, которые стали доступны широкой публике. Это привело к тому, что все больше людей начали интересоваться программированием.&#10;&#10;С появлением Интернета в 1990-х годах программирование стало еще более популярным. Сейчас программисты работают во многих различных областях, от разработки веб-сайтов и мобильных приложений до создания программного обеспечения для научных и медицинских исследований.&#10;&#10;Чтобы стать программистом, нужно изучать языки программирования, практиковаться в написании кода и решении задач, а также следить за новыми технологиями и трендами в отрасли. Существует множество ресурсов и курсов, которые помогут в изучении программирования, и многие из них доступны онлайн." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684843118354" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="597c4f">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="597c4f" />
-              <option name="initiateTms" value="1684843034953" />
-              <option name="request" value="Привет" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Hello! How can I assist you today?" />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684843039104" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="6543c7">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="6543c7" />
-              <option name="initiateTms" value="1684843039901" />
-              <option name="request" value="Как дела у тебя?" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="As an AI language model, I don't have feelings or emotions, but I'm functioning properly and ready to assist you with any questions or tasks you have. How can I help you today?" />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684843048214" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="7e4fa1">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="7e4fa1" />
-              <option name="initiateTms" value="1684870792232" />
-              <option name="request" value="как обновить сниппеты под новые стандарты в react webstorm" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Чтобы обновить сниппеты в WebStorm для новых стандартов в React, вам нужно выполнить следующие шаги:&#10;&#10;1. Откройте WebStorm и перейдите в раздел `File` &gt; `Settings` (или используйте сочетание клавиш `Ctrl + Alt + S` на Windows/Linux или `Cmd + ,` на Mac).&#10;&#10;2. В окне настроек выберите раздел `Editor` &gt; `Live Templates`.&#10;&#10;3. Найдите группу `React` и выберите нужный сниппет, который вы хотите обновить.&#10;&#10;4. Измените код сниппета в соответствии с новыми стандартами в React.&#10;&#10;5. Нажмите кнопку `Apply` или `OK`, чтобы сохранить изменения.&#10;&#10;6. Повторите шаги 3-5 для всех сниппетов, которые вы хотите обновить.&#10;&#10;Обратите внимание, что вам может потребоваться обновить не только код сниппетов, но и их шаблоны. Например, если вы хотите обновить сниппет для создания компонента, то вам может потребоваться изменить шаблон для импорта React и других зависимостей.&#10;&#10;Также обратите внимание, что WebStorm предоставляет множество встроенных сниппетов для React, которые могут быть полезны при разработке. Вы можете использовать их в своем проекте или создать свои собственные сниппеты, основанные на них.&#10;&#10;Надеюсь, это поможет вам обновить сниппеты в WebStorm для новых стандартов в React." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684870859037" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="9733ba">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="9733ba" />
-              <option name="initiateTms" value="1684846919767" />
-              <option name="request" value="как мне использовать react-icons" />
-              <option name="response" value="" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="9e3dbd">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="9e3dbd" />
-              <option name="initiateTms" value="1684869598022" />
-              <option name="request" value="как добавить автообновление страницы в vite" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Для добавления автообновления страницы в Vite вам нужно выполнить следующие шаги:&#10;&#10;1. Установите плагин `vite-plugin-react-refresh` с помощью npm или yarn:&#10;&#10;   ```&#10;   npm install vite-plugin-react-refresh --save-dev&#10;   ```&#10;&#10;   или&#10;&#10;   ```&#10;   yarn add vite-plugin-react-refresh --dev&#10;   ```&#10;&#10;   Этот плагин добавляет поддержку автообновления страницы в Vite для проектов на React.&#10;&#10;2. Добавьте плагин `vite-plugin-react-refresh` в ваш файл `vite.config.js`:&#10;&#10;   ```js&#10;   import { defineConfig } from 'vite';&#10;   import reactRefresh from '@vitejs/plugin-react-refresh';&#10;&#10;   export default defineConfig({&#10;     plugins: [reactRefresh()],&#10;   });&#10;   ```&#10;&#10;   Этот код добавляет плагин `vite-plugin-react-refresh` в ваш файл `vite.config.js`.&#10;&#10;3. Запустите ваше приложение с помощью команды `npm run dev` или `yarn dev`. Теперь ваше приложение будет автоматически обновляться при изменении кода.&#10;&#10;   Обратите внимание, что автообновление страницы работает только при изменении кода в файлах вашего проекта. Если вы измените файл `vite.config.js`, то вам нужно будет перезапустить сервер, чтобы изменения вступили в силу.&#10;&#10;Надеюсь, это поможет вам добавить автообновление страницы в ваш проект на Vite." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684869645844" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="a2d3a1">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="a2d3a1" />
-              <option name="initiateTms" value="1684843055153" />
-              <option name="request" value="А ты можешь говорить по русски?" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Да, я могу говорить по-русски. В чем мне помочь?" />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684843060415" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="aa6a75">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="aa6a75" />
-              <option name="initiateTms" value="1684871535985" />
-              <option name="request" value="как настроить prettier чтоб он ровнял jsx без ; в webstorm" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Чтобы настроить Prettier в WebStorm для форматирования JSX без точек с запятой, вам нужно выполнить следующие шаги:&#10;&#10;1. Установите Prettier в ваш проект с помощью npm или yarn:&#10;&#10;   ```&#10;   npm install prettier --save-dev&#10;   ```&#10;&#10;   или&#10;&#10;   ```&#10;   yarn add prettier --dev&#10;   ```&#10;&#10;2. Создайте файл `.prettierrc` в корневой папке вашего проекта и добавьте в него следующий код:&#10;&#10;   ```json&#10;   {&#10;     &quot;semi&quot;: false,&#10;     &quot;singleQuote&quot;: true,&#10;     &quot;jsxSingleQuote&quot;: true,&#10;     &quot;trailingComma&quot;: &quot;es5&quot;&#10;   }&#10;   ```&#10;&#10;   Этот код настраивает Prettier на использование одинарных кавычек вместо двойных, отключает точки с запятой и устанавливает запятые в конце строк только для массивов и объектов, созданных в стиле ES5. Также он настраивает Prettier на использование одинарных кавычек для атрибутов JSX.&#10;&#10;3. Откройте настройки WebStorm и перейдите в раздел `Languages &amp; Frameworks` &gt; `JavaScript` &gt; `Prettier`.&#10;&#10;4. Установите флажок `Enable` и выберите опцию `Package` в качестве источника Prettier.&#10;&#10;5. Укажите путь к установленному пакету Prettier в вашем проекте. Например, если вы установили Prettier с помощью npm, то путь будет выглядеть так: `node_modules/prettier`.&#10;&#10;6. Нажмите кнопку `Apply` и закройте настройки.&#10;&#10;Теперь Prettier будет использовать настройки из файла `.prettierrc` при форматировании вашего кода в WebStorm. Если вы хотите форматировать код вручную, то вы можете нажать комбинацию клавиш `Ctrl + Alt + Shift + P` (на Windows и Linux) или `Cmd + Option + Shift + P` (на Mac) для вызова Prettier.&#10;&#10;Надеюсь, это поможет вам настроить Prettier в WebStorm для форматирования JSX без точек с запятой." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684871602474" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="d9b7c1">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="d9b7c1" />
-              <option name="initiateTms" value="1684854432145" />
-              <option name="request" value="import React from &quot;react&quot;;&#10;import Header from &quot;./components/layout/header/Header.jsx&quot;;&#10;&#10;const App = () =&gt; {&#10;  return(&#10;      &lt;div&gt;&lt;h1&gt;Hello-World&lt;/h1&gt;&#10;  &lt;/div&gt;&#10;      &lt;div&gt;&#10;          &lt;Header/&gt;&#10;      &lt;/div&gt;&#10;)&#10;};&#10;export default App;&#10;" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Чтобы подключить CSS-файл к этому компоненту, вам нужно выполнить следующие шаги:&#10;&#10;1. Создайте файл CSS в папке `src` вашего проекта. Назовите его, например, `style.css`.&#10;&#10;2. Добавьте нужные стили в файл `style.css`. Например, вы можете добавить следующие стили:&#10;&#10;   ```css&#10;   .header {&#10;     background-color: #333;&#10;     color: #fff;&#10;     padding: 10px;&#10;   }&#10;   ```&#10;&#10;   Эти стили задают цвет фона, цвет текста и отступы для элемента с классом `.header`.&#10;&#10;3. Импортируйте файл CSS в ваш компонент `App.jsx`. Для этого добавьте следующую строку в начало файла:&#10;&#10;   ```jsx&#10;   import './style.css';&#10;   ```&#10;&#10;   Эта строка импортирует файл `style.css` в ваш компонент.&#10;&#10;4. Добавьте класс `header` к элементу `Header` в вашем компоненте `App.jsx`. Для этого замените строку:&#10;&#10;   ```jsx&#10;   &lt;Header /&gt;&#10;   ```&#10;&#10;   на:&#10;&#10;   ```jsx&#10;   &lt;Header className=&quot;header&quot; /&gt;&#10;   ```&#10;&#10;   Это добавит класс `header` к элементу `Header`.&#10;&#10;Теперь стили из файла `style.css` будут применяться к элементу `Header` в вашем компоненте `App.jsx`." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684854492735" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="ee66b9">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="ee66b9" />
-              <option name="initiateTms" value="1684871635918" />
-              <option name="request" value="Сделай мне конфиг для prettierrc для jsx, js, html, scss, css по новым стандартам" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Конечно, вот пример конфигурации `.prettierrc` для форматирования кода в файлах с расширениями `.jsx`, `.js`, `.html`, `.scss` и `.css` по новым стандартам:&#10;&#10;```json&#10;{&#10;  &quot;semi&quot;: false,&#10;  &quot;singleQuote&quot;: true,&#10;  &quot;jsxSingleQuote&quot;: true,&#10;  &quot;trailingComma&quot;: &quot;es5&quot;,&#10;  &quot;tabWidth&quot;: 2,&#10;  &quot;useTabs&quot;: false,&#10;  &quot;printWidth&quot;: 80,&#10;  &quot;endOfLine&quot;: &quot;auto&quot;&#10;}&#10;```&#10;&#10;Этот код настраивает Prettier на использование одинарных кавычек вместо двойных, отключает точки с запятой и устанавливает запятые в конце строк только для массивов и объектов, созданных в стиле ES5. Также он настраивает Prettier на использование одинарных кавычек для атрибутов JSX.&#10;&#10;Кроме того, этот код устанавливает ширину строки на 80 символов, использует 2 пробела в качестве отступов и устанавливает конечные символы строк в соответствии с операционной системой.&#10;&#10;Вы можете скопировать этот код и вставить его в файл `.prettierrc` в корневой папке вашего проекта. После этого Prettier будет использовать эти настройки при форматировании кода в файлах с расширениями `.jsx`, `.js`, `.html`, `.scss` и `.css`.&#10;&#10;Надеюсь, это поможет вам настроить Prettier для форматирования кода в вашем проекте." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684871702457" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="f67e7d">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="f67e7d" />
-              <option name="initiateTms" value="1684848567656" />
-              <option name="request" value="как подключить css" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Для подключения CSS в HTML-файле используется тег `&lt;link&gt;`. Вам нужно добавить тег `&lt;link&gt;` внутри тега `&lt;head&gt;` вашего HTML-файла и указать путь к файлу CSS в атрибуте `href`.&#10;&#10;Например, если ваш файл CSS находится в папке `css` и называется `style.css`, то вы можете добавить следующий тег `&lt;link&gt;` в ваш HTML-файл:&#10;&#10;```html&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Мой сайт&lt;/title&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;!-- Содержимое вашей страницы --&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;```&#10;&#10;В этом примере мы добавили тег `&lt;link&gt;` внутри тега `&lt;head&gt;` и указали путь к файлу CSS в атрибуте `href`. Теперь браузер будет загружать файл CSS и применять его стили к вашей странице.&#10;&#10;Обратите внимание, что путь к файлу CSS должен быть относительным или абсолютным путем к файлу на вашем сервере. Если вы используете относительный путь, то он должен быть относительно расположения вашего HTML-файла." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684848617545" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-        <entry key="fbdf3a">
-          <value>
-            <ChatHistoryModel>
-              <option name="id" value="fbdf3a" />
-              <option name="initiateTms" value="1684870153899" />
-              <option name="request" value="помоги реализовать простой header на react с иконками из react-icons" />
-              <option name="response" value="" />
-              <option name="responseDescription" value="Конечно, я могу помочь вам реализовать простой header на React с иконками из react-icons. Вот пример кода:&#10;&#10;```jsx&#10;import React from &quot;react&quot;;&#10;import { FaUser, BiMenuAltRight } from &quot;react-icons&quot;;&#10;&#10;const Header = () =&gt; {&#10;  return (&#10;    &lt;div className=&quot;header&quot;&gt;&#10;      &lt;BiMenuAltRight className=&quot;menu_icon&quot; /&gt;&#10;      &lt;FaUser className=&quot;user_icon&quot; /&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default Header;&#10;```&#10;&#10;В этом примере мы создали компонент `Header`, который отображает иконки меню и пользователя с помощью компонентов `BiMenuAltRight` и `FaUser` из библиотеки react-icons.&#10;&#10;Мы также добавили класс `header` к обертке компонента, чтобы вы могли стилизовать его с помощью CSS.&#10;&#10;Чтобы использовать этот компонент в вашем приложении, вы можете импортировать его и добавить в нужное место. Например, так:&#10;&#10;```jsx&#10;import React from &quot;react&quot;;&#10;import Header from &quot;./Header&quot;;&#10;&#10;const App = () =&gt; {&#10;  return (&#10;    &lt;div&gt;&#10;      &lt;Header /&gt;&#10;      &lt;p&gt;Содержимое вашего приложения&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default App;&#10;```&#10;&#10;В этом примере мы импортировали компонент `Header` и добавили его перед содержимым компонента `App`." />
-              <option name="responseFileName" value="" />
-              <option name="responseFilePath" value="" />
-              <option name="responseTms" value="1684870211369" />
-            </ChatHistoryModel>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
