@@ -4,50 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdac2f6-f845-4405-a43f-64f51820ae5c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+    <list default="true" id="2cdac2f6-f845-4405-a43f-64f51820ae5c" name="Changes" comment="hamburger">
+      <change afterPath="$PROJECT_DIR$/machinet.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/hamburger/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/screen/Auth/Auth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/screen/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/screen/NewWorkout/NewWorkout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/screen/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/screen/not-found/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Routes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/routes.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230522222303.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152418.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152419.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152426.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152432.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152435.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152438.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152452.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/App_20230523152453.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230522231846.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152408.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/assets/styles/_animations_20230523152410.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/components/layout/header/Header_20230524150043.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.history/src/components/layout/header/Header_20230524150609.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/machinet.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/public/app.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/assets/styles/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/hooks/useAuth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/Layout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/Hamburger.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/Hamburger.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/menu.data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/hamburger/menu.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/components/layout/header/Header.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-app_frontend/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prettierrc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,32 +28,43 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2QPWheZTmAfQB0ocloA7BvLggUr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ismertin/Документы/GitHub/mobile_app/Frontend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ismertin/Документы/GitHub/mobile_app/Frontend/src/routes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/home/ismertin/Документы/GitHub/mobile_app/Frontend/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.rcb.reactComponents" value="true" />
-        <entry key="com.haulmont.rcb.reactInspector" value="true" />
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,11 +75,176 @@
       <option name="presentableId" value="Default" />
       <updated>1685255818548</updated>
       <workItem from="1685255823448" duration="571000" />
-      <workItem from="1685256467868" duration="198000" />
+      <workItem from="1685256467868" duration="1108000" />
+      <workItem from="1685271555067" duration="5618000" />
     </task>
+    <task id="LOCAL-00001" summary="hamburger">
+      <created>1685256711101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685256711101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="hamburger" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamburger" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="01a4b3">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="01a4b3" />
+              <option name="initiateTms" value="1685279854525" />
+              <option name="request" value="как настройить prettier на новый формат javascript в webstorm" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Чтобы настроить Prettier на новый формат JavaScript в WebStorm, вам нужно выполнить следующие шаги:&#10;&#10;1. Установите плагин Prettier в WebStorm, если он еще не установлен. Для этого перейдите в меню &quot;File&quot; -&gt; &quot;Settings&quot; -&gt; &quot;Plugins&quot; и найдите плагин Prettier. Установите его и перезапустите WebStorm.&#10;&#10;2. Откройте файл `package.json` вашего проекта и добавьте следующую строку в секцию `scripts`:&#10;&#10;   ```&#10;   &quot;format&quot;: &quot;prettier --write \&quot;src/**/*.js\&quot;&quot;&#10;   ```&#10;&#10;   Эта команда запустит Prettier для всех файлов с расширением `.js` в папке `src` и ее подпапках.&#10;&#10;3. Откройте файл `.prettierrc` в корневой папке вашего проекта и добавьте следующую строку:&#10;&#10;   ```&#10;   &quot;parser&quot;: &quot;babel&quot;&#10;   ```&#10;&#10;   Это указывает Prettier использовать парсер Babel для нового формата JavaScript.&#10;&#10;4. Теперь вы можете запустить команду `npm run format` в терминале WebStorm, чтобы применить форматирование Prettier к вашему коду. Вы также можете настроить автоматическое форматирование при сохранении файла, выбрав опцию &quot;File&quot; -&gt; &quot;Settings&quot; -&gt; &quot;Editor&quot; -&gt; &quot;Code Style&quot; -&gt; &quot;JavaScript&quot; и выбрав &quot;Prettier&quot; в качестве форматировщика." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685279891139" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="028958">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="028958" />
+              <option name="initiateTms" value="1685279225762" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="&#10;To use GPT4 chat feature:&#10;Use quot;Machinet AIquot; item in the quot;Toolsquot; action menu or simply use quot;Shift + Alt + Equot; combination to show chat dialog.&#10;Type anything and wait for the response of the AI. You can ask it to create / modify files, ask questions and many more.&#10;To add unit tests:" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To add unit tests, you can use a testing framework such as Jest. Here are the" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="26b1cb">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="26b1cb" />
+              <option name="initiateTms" value="1685281127604" />
+              <option name="request" value="const Routes = () =&gt; {&#10;  return (&#10;    &lt;BrowserRouter&gt;&#10;      &lt;Routes&gt;&#10;        {routes.map(route =&gt; (&#10;          &lt;Route&#10;          key={route.path}&#10;          path={route.path}&#10;          element={&lt;route.component /&gt;}&#10;            /&gt;&#10;          ))}&#10;        &lt;Route path=&quot;*&quot; element{&lt;NotFound /&gt;} /&gt;&#10;      &lt;/Routes&gt;&#10;    &lt;/BrowserRouter&gt;&#10;&#10;  )&#10;&#10;}&#10;&#10;export default Routes;" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="В коде, который вы предоставили, есть ошибка в строке:&#10;&#10;```&#10;&lt;Route path=&quot;*&quot; element{&lt;NotFound /&gt;} /&gt;&#10;```&#10;&#10;Вместо `element{&lt;NotFound /&gt;}` должно быть `element={&lt;NotFound /&gt;}`. Также вам нужно импортировать компонент `BrowserRouter` из `react-router-dom`:&#10;&#10;```&#10;import { BrowserRouter, Route } from &quot;react-router-dom&quot;;&#10;import NotFound from &quot;../components/layout/screen/not-found/NotFound&quot;;&#10;import { routes } from &quot;./routes.data&quot;;&#10;&#10;const Routes = () =&gt; {&#10;  return (&#10;    &lt;BrowserRouter&gt;&#10;      &lt;Route path=&quot;/&quot;&gt;&#10;        {routes.map((route) =&gt; (&#10;          &lt;Route&#10;            key={route.path}&#10;            path={route.path}&#10;            element={&lt;route.component /&gt;}&#10;          /&gt;&#10;        ))}&#10;        &lt;Route element={&lt;NotFound /&gt;} /&gt;&#10;      &lt;/Route&gt;&#10;    &lt;/BrowserRouter&gt;&#10;  );&#10;};&#10;&#10;export default Routes;&#10;```&#10;&#10;В этом коде мы исправили ошибку и использовали компонент `BrowserRouter` из `react-router-dom`. Также мы убрали лишний компонент `Routes` и обернули маршруты в компонент `Route` с путем `/`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685281158619" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="4c6ab9">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="4c6ab9" />
+              <option name="initiateTms" value="1685278992123" />
+              <option name="request" value="import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'&#10;import { routes } from './routes.data.js'&#10;import NotFound from '../components/layout/screen/not-found/NotFound.jsx'&#10;export const router = createBrowserRouter(&#10;&#9;createRoutesFromElements(&#10;&#9;&#9;&lt;Route path=&quot;/&quot;&gt;&#10;{route =&gt; (&#10;&#9;&lt;Route&#10;&#9;&#9;key={route.path}&#10;&#9;&#9;path={route.path}&#10;&#9;&#9;element={&lt;route.component /&gt;}&#10;&#9;/&gt;&#10;) |&gt; routes.map}&#10;&#10;&#9;&#9;&#9;&#9; &lt;Route element={&lt;NotFound /&gt;} /&gt;&#10;&#9;&#9;&lt;/Route&gt;&#10;&#9;)&#10;)&#10;&#10;что не так" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="В коде отсутствует запятая после свойства `component` в объекте маршрутов с путем `/auth` в файле `src/routes/routes.data.js`. Вам нужно добавить запятую после `component: Auth`. Вот исправленный код:&#10;&#10;```javascript&#10;import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'&#10;import { routes } from './routes.data.js'&#10;import NotFound from '../components/layout/screen/not-found/NotFound.jsx'&#10;&#10;export const router = createBrowserRouter(&#10;  createRoutesFromElements(&#10;    &lt;Route path=&quot;/&quot;&gt;&#10;      {route =&gt; (&#10;        &lt;Route&#10;          key={route.path}&#10;          path={route.path}&#10;          element={&lt;route.component /&gt;}&#10;        /&gt;&#10;      ) |&gt; routes.map}&#10;      &lt;Route element={&lt;NotFound /&gt;} /&gt;&#10;    &lt;/Route&gt;&#10;  )&#10;)&#10;```&#10;&#10;```javascript&#10;import { createBrowserRouter } from './react-router-dom';&#10;import Home from &quot;../components/layout/screen/Home/Home&quot;;&#10;import Auth from '../components/layout/screen/Auth/Auth';&#10;import NewWorkout from '../components/layout/screen/NewWorkout/NewWorkout';&#10;import Profile from '../components/layout/screen/Profile/Profile';&#10;&#10;export const routes = [&#10;  {&#10;    path: '/',&#10;    exact: true,&#10;    component: Home,&#10;    auth: false&#10;  },&#10;  {&#10;    path: '/auth',&#10;    exact: false,&#10;    component: Auth,&#10;    auth: false&#10;  },&#10;  {&#10;    path: '/new-workout',&#10;    exact: false,&#10;    component: NewWorkout,&#10;    auth: true&#10;  },&#10;  {&#10;    path: '/profile',&#10;    exact: false,&#10;    component: Profile,&#10;    auth: true&#10;  }&#10;];&#10;```" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685279024926" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="5b2f91">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="5b2f91" />
+              <option name="initiateTms" value="1685279249889" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="&#10;To use GPT4 chat feature:&#10;Use quot;Machinet AIquot; item in the quot;Toolsquot; action menu or simply use quot;Shift + Alt + Equot; combination to show chat dialog.&#10;Type anything and wait for the response of the AI. You can ask it to create / modify files, ask questions and many more.&#10;To add unit tests:" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Для добавления модульных тестов вам нужно использовать тестовый фреймворк, такой как Jest. Вот пример теста для компонента `Menu` из файла `src/components/layout/hamburger/Menu.jsx`:&#10;&#10;```javascript&#10;import React from 'react'&#10;import { render, screen } from '@testing-library/react'&#10;import Menu from './Menu'&#10;&#10;describe('Menu component', () =&gt; {&#10;  it('renders menu items', () =&gt; {&#10;    render(&lt;Menu isShow={true} /&gt;)&#10;    const menuItems = screen.getAllByRole('menuitem')&#10;    expect(menuItems).toHaveLength(3)&#10;    expect(menuItems[0]).toHaveTextContent('Workouts')&#10;    expect(menuItems[1]).toHaveTextContent('Create new')&#10;    expect(menuItems[2]).toHaveTextContent('Profile')&#10;  })&#10;&#10;  it('renders logout button'," />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="6384cc">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="6384cc" />
+              <option name="initiateTms" value="1685280145898" />
+              <option name="request" value="import NotFound from &quot;../components/layout/screen/not-found/NotFound.jsx&quot;;&#10;import { routes } from &quot;./routes.data.js&quot;;&#10;import {&#10;  createBrowserRouter,&#10;  createRoutesFromElements,&#10;  Route,&#10;} from &quot;react-router-dom&quot;;&#10;&#10;export const router = createBrowserRouter(&#10;  createRoutesFromElements(&#10;    &lt;Route path=&quot;/&quot;&gt;&#10;      {routes.map((route) =&gt; (&#10;        &lt;Route&#10;          key={route.path}&#10;          path={route.path}&#10;          element={&lt;route.component /&gt;}&#10;        /&gt;&#10;      ))}&#10;&#10;      &lt;Route element={&lt;NotFound /&gt;} /&gt;&#10;    &lt;/Route&gt;&#10;  )&#10;);&#10; ошибка  [plugin:vite:import-analysis] Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.&#10;/home/ismertin/Документы/GitHub/mobile_app/Frontend/src/routes/Routes.js:21:13&#10;19 |  &#10;20 |        &lt;Route element={&lt;NotFound /&gt;} /&gt;&#10;21 |      &lt;/Route&gt;&#10;   |              ^&#10;22 |    )&#10;23 |  );&#10;    at formatError (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:41235:46)&#10;    at TransformContext.error (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:41231:19)&#10;    at TransformContext.transform (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:39475:22)&#10;    at async Object.transform (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:41506:30)&#10;    at async loadAndTransform (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Ошибка указывает на то, что файл `NotFound.jsx` содержит JSX-синтаксис, но имеет расширение `.js`. Чтобы исправить эту ошибку, вам нужно переименовать файл `NotFound.js` в `NotFound.jsx`.&#10;&#10;После этого вам нужно обновить импорт в файле `Routes.js`:&#10;&#10;```&#10;import NotFound from &quot;../components/layout/screen/not-found/NotFound&quot;;&#10;```&#10;&#10;Также убедитесь, что вы используете версию `react-router-dom`, которая поддерживает JSX-синтаксис. Если вы используете устаревшую версию, вам нужно обновить ее до последней версии." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685280163709" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="7e5896">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="7e5896" />
+              <option name="initiateTms" value="1685279281617" />
+              <option name="request" value="&#10;To use GPT4 chat feature:&#10;Use quot;Machinet AIquot; item in the quot;Toolsquot; action menu or simply use quot;Shift + Alt + Equot; combination to show chat dialog.&#10;Type anything and wait for the response of the AI. You can ask it to create / modify files, ask questions and many more.&#10;To add unit tests: переведи" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Это описание того, как использовать функцию чата GPT-4. Чтобы открыть диалоговое окно чата, вы можете выбрать пункт &quot;Machinet AI&quot; в меню &quot;Tools&quot; или просто использовать комбинацию клавиш &quot;Shift + Alt + E&quot;. После этого вы можете ввести любой текст и дождаться ответа от AI. Вы можете попросить его создать/изменить файлы, задать вопросы и многое другое. Чтобы добавить модульные тесты, вам нужно написать тесты для вашего кода, используя тестовый фреймворк, такой как Jest." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685279300870" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="836d17">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="836d17" />
+              <option name="initiateTms" value="1685279271545" />
+              <option name="request" value="Нет, что это означет" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Извините, я не понимаю вашего вопроса. Можете уточнить, что вы имели в виду?" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685279277741" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="bdb132">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="bdb132" />
+              <option name="initiateTms" value="1685279693438" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="[plugin:vite:import-analysis] Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.&#10;/home/ismertin/Документы/GitHub/mobile_app/Frontend/src/routes/Routes.js:24:1&#10;    at formatError (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:41235:46)&#10;    at TransformContext.error (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:41231:19)&#10;    at TransformContext.transform (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:39475:22)&#10;    at async Object.transform (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:41506:30)&#10;    at async loadAndTransform (file:///home/ismertin/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/mobile_app/Frontend/node_modules/vite/dist/node/chunks/dep-5e7f419b.js:39313:29&#10;Click outside or fix the code to dismiss.&#10;You can also disable this overlay by setting server.hmr.overlay to false in vite.config.js." />
+              <option name="response" value="" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="d75b6c">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="d75b6c" />
+              <option name="initiateTms" value="1685278984483" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'&#10;import { routes } from './routes.data.js'&#10;import NotFound from '../components/layout/screen/not-found/NotFound.jsx'&#10;export const router = createBrowserRouter(&#10;&#9;createRoutesFromElements(&#10;&#9;&#9;&lt;Route path=&quot;/&quot;&gt;&#10;{route =&gt; (&#10;&#9;&lt;Route&#10;&#9;&#9;key={route.path}&#10;&#9;&#9;path={route.path}&#10;&#9;&#9;element={&lt;route.component /&gt;}&#10;&#9;/&gt;&#10;) |&gt; routes.map}&#10;&#10;&#9;&#9;&#9;&#9; &lt;Route element={&lt;NotFound /&gt;} /&gt;&#10;&#9;&#9;&lt;/Route&gt;&#10;&#9;)&#10;)&#10;&#10;" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="This code defines the router for the application using the `react-router-dom` library. It creates a browser router" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="fcd731">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="fcd731" />
+              <option name="initiateTms" value="1685279239425" />
+              <option name="request" value="Разговаривай со мной по русски" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Конечно, я могу разговаривать с вами на русском языке. В чем я могу вам помочь?" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1685279247434" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
