@@ -8,6 +8,8 @@ const Menu = ({ isShow }) => {
 	return (
 		<nav
 			className={cn(styles.menu, {
+
+				
 				[styles.show]: isShow
 			})}
 		>
