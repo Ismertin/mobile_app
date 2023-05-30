@@ -9,16 +9,14 @@
 		border: none;
 		outline: none;
 		cursor: pointer;
-		
 	}
->button{
+	> button {
+		font-size: 30px;
 
-	font-size: 30px;
-
-	> svg > path {
-			fill : #fff;
+		> svg > path {
+			fill: #fff;
 		}
-}
+	}
 
 	.menu {
 		position: absolute;
