@@ -5,19 +5,31 @@ import Button from '../../../UI/Button/Button'
 import Field from '../../../UI/field/Field'
 import Loader from '../../../UI/Loader'
 import styles from './Auth.module.scss'
-
-const isLoading = false
-const isLoadingAuth = false
+import { useMutation, useQuery } from '@tanstack/react-query'
+import authService from '../../../../services/auth.service'
 
 const Auth = () => {
-	const onSubmit = data => {
-		console.log(data)
+	const onSubmit = async data => {
+		mutate(data.email, data.password)
 	}
 	const [type, setType] = useState('auth')
 
-	const { register, handleSubmit, errors } = useForm({
+	const {
+		register,
+		handleSubmit,
+		formState: { errors }
+	} = useForm({
 		mode: 'onChange'
 	})
+	const { mutate, isLoading } = useMutation(
+		['auth'],
+		(email, password) => AuthService.main(email, password, type),
+		{
+			onSuccess: data => {
+				alert('Success')
+			}
+		}
+	)
 
 	return (
 		<Layout
