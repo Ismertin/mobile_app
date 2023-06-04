@@ -10,7 +10,7 @@ export const routes = [
 		auth: false
 	},
 	{
-		path: 'auth',
+		path: '/auth',
 		component: Auth,
 		auth: false
 	},

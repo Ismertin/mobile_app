@@ -6,13 +6,10 @@ import Field from '../../../UI/field/Field'
 import Loader from '../../../UI/Loader'
 import styles from './Auth.module.scss'
 import { useMutation, useQuery } from '@tanstack/react-query'
-import authService from '../../../../services/auth.service'
+import AuthService from '../../../../services/auth.service'
 
 const Auth = () => {
-	const onSubmit = async data => {
-		mutate(data.email, data.password)
-	}
-	const [type, setType] = useState('auth')
+	const [type, setType] = useState(`login`)
 
 	const {
 		register,
@@ -23,13 +20,17 @@ const Auth = () => {
 	})
 	const { mutate, isLoading } = useMutation(
 		['auth'],
-		(email, password) => AuthService.main(email, password, type),
+		({ email, password }) => AuthService.main(email, password, type),
 		{
 			onSuccess: data => {
 				alert('Success')
+				reset()
 			}
 		}
 	)
+	const onSubmit = data => {
+		mutate(data)
+	}
 
 	return (
 		<Layout
@@ -59,7 +60,7 @@ const Auth = () => {
 						<Button clickHandler={() => setType('reg')}>
 							Зарегистрироваться
 						</Button>
-						<Button clickHandler={() => setType('auth')}>Войти</Button>
+						<Button clickHandler={() => setType('login')}>Войти</Button>
 					</div>
 				</form>
 			</div>
