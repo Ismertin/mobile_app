@@ -37,7 +37,7 @@ const Auth = () => {
 			bgImage={'../../../../../public/auth.jpeg'}
 		>
 			<div className="wrapper_inner_page">
-				{(isLoading || isLoadingAuth) && <Loader />}
+				{isLoading && <Loader />}
 				<form onSubmit={handleSubmit(onSubmit)}>
 					<Field
 						error={errors?.email?.message}
