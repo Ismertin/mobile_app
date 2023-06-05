@@ -12,14 +12,15 @@ const Header = ({ backLink = '' }) => {
 
 	const navigate = useNavigate()
 
-	const { isAuth } = useAuth()
+	const {isAuth} = useAuth()
+
 
 	return (
 		<header className={styles.header}>
-			{pathname !== '/' ? (
+			{pathname !== '/'  || !isAuth && pathname !== 'auth' ? (
 				<button
 					onClick={() => {
-						navigate(backLink)
+						navigate(isAuth ? backLink : '/auth')
 					}}
 				>
 					<IoArrowBack color="#fff" fontSize={29} />
@@ -33,7 +34,7 @@ const Header = ({ backLink = '' }) => {
 					<HiOutlineUser color="#fff" fontSize={29} />
 				</button>
 			)}
-			<Hamburger />
+			{isAuth && <Hamburger />}
 		</header>
 	)
 }
