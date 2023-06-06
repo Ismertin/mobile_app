@@ -17,15 +17,9 @@ const Header = ({ backLink = '' }) => {
 
 	return (
 		<header className={styles.header}>
-			{pathname !== '/'  || !isAuth && pathname !== 'auth' ? (
-				<button
-					onClick={() => {
-						navigate(isAuth ? backLink : '/auth')
-					}}
-				>
-					<IoArrowBack color="#fff" fontSize={29} />
-				</button>
-			) : (
+			{isAuth && (
+				<>
+			{pathname === '/'  && isAuth ? (
 				<button
 					onClick={() => {
 						navigate('/profile')
@@ -33,8 +27,18 @@ const Header = ({ backLink = '' }) => {
 				>
 					<HiOutlineUser color="#fff" fontSize={29} />
 				</button>
+			) : (
+				<button
+					onClick={() => {
+						navigate('/')
+					}}
+				>
+					<IoArrowBack color="#fff" fontSize={29} />
+				</button>
 			)}
-			{isAuth && <Hamburger />}
+			<Hamburger />
+				</>
+			)}
 		</header>
 	)
 }

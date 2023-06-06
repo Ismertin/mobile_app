@@ -14,7 +14,7 @@ const Auth = () => {
 	return (
 		<Layout
 			heading="Пожалуйста авторизируйтесь"
-			bgImage={'../../../../../public/auth.jpeg'}
+			bgImage={'../../../../../public/authbg.jpeg'}
 		>
 			<div className="wrapper_inner_page">
 				{isLoading && <Loader />}
