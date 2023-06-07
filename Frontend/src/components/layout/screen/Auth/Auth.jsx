@@ -1,6 +1,4 @@
-import { useEffect, useState } from 'react'
 import Layout from '../../Layout'
-import { useForm } from 'react-hook-form'
 import Button from '../../../UI/Button/Button'
 import Field from '../../../UI/field/Field'
 import Loader from '../../../UI/Loader'
