@@ -10,9 +10,7 @@ function Home() {
 	const navigate = useNavigate()
 	return (
 		<Layout bgImage={'/public/bg.jpeg'}>
-			<Button
-				clickHandler={() => navigate('/new-workout')}
-			>
+			<Button clickHandler={() => navigate('/new-workout')}>
 				Новая тренировка
 			</Button>
 			<h1 className={styles.heading}>EXERCISES FOR THE SHOULDERS</h1>

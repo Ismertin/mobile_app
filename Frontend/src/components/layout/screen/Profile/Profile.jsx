@@ -15,7 +15,6 @@ const Profile = () => {
 		style={{backgroundImage: `url('/public/profile.jpg')`, height: 400}} >
 		<Header />
 
-
 		<div className={styles.center}>
 			{isLoading ? ( <Loader />
 				) : (
@@ -24,17 +23,12 @@ const Profile = () => {
 				<h1 className={stylesLayout.heading}>{data?.email}</h1>
 				</>
 				)}
+			<div className='wrapper_inner_page' style={{paddingLeft: 0, paddingRight: 0}}>
+
 		</div>
 	</div>
-			<div className={styles.before_after}>
-				<div>
-					<div className={styles.heading}>До</div>
-					<img src='/public/Before.jpg' alt='Before' height='200' draggable='false'/>
-				</div>
-				<div>
-					<div className={styles.heading}>После</div>
-					<img src='/public/after.jpg' alt='After' height='200' draggable='false'/>
-				</div>
+
+
 			</div>
 			</>
 
