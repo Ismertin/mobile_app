@@ -4,6 +4,6 @@ import UserService from '../../../../services/user.service.js'
 export const useProfile = () => {
 	return useQuery(['get profile'], () => UserService.getProfile(),
 		{
-			select: ({data}) => data,
+			select: ({data}) => data
 		})
 }
