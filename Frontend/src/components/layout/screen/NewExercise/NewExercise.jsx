@@ -1,32 +1,61 @@
-import stylesLayots from '../../Layout.module.scss'
-import styles from '../NewWorkout/NewWorkout.module.scss'
-import Header from "../../header/Header.jsx";
-import {useNavigate} from "react-router-dom";
-import cn from "clsx";
-import {useForm} from "react-hook-form";
-import Field from "../../../UI/field/Field.jsx";
+import { useMutation } from '@tanstack/react-query'
+import { ExerciseService } from '../../../../services/exercise/exercise.service.js'
+import Layout from '../../Layout.jsx'
+import { useForm } from 'react-hook-form'
+import Loader from '../../../UI/Loader.jsx'
+import Field from '../../../UI/field/Field.jsx'
+import styles from '../Auth/Auth.module.scss'
+import Button from '../../../UI/Button/Button.jsx'
 
 const NewExercise = () => {
-    const navigate = useNavigate()
-    const {formState: errors, handleSubmit} = useForm()
-    return <div className="wrapper_inner_page">
-        <>
-        <div className={cn(stylesLayots.wrapper_otherPage, stylesLayots.wrapper)} style={{backgroundImage: `url('public/new-exercise.jfif')`, height:400}}>
-            <Header/>
-            <div className={styles.heading}>Добавление упражнения</div>
-        </div>
-            <div className="wrapper">
-                <form onSubmit={handleSubmit(onSubmit)}>
-                <Field error={errors}
-                       register={register}
-                       options={{required:"required"}}
-                       name="exericse"
-                       type="text"
-                       placeHolder = "Введите название упражнения"/>
-                </form>
-            </div>
-            </>
+    const {} = useMutation(['create exercise'], body => ExerciseService.create(body))
+	const {
+		register,
+		handleSubmit,
+		isLoading,
+		formState: { errors }
+	} = useForm({
+		mode: 'onChange'
+	})
+	const onSubmit = data => {
+		mutate(data)
+	}
 
-    </div>
-}
+	return (
+		<>
+	<Layout bgImage='public/new-exercise.jfif'
+					heading='Создание нового упражнения'
+					backLink='/new-workout' />
+			<div className="wrapper_inner_page">
+				{isLoading && <Loader />}
+				<form onSubmit={handleSubmit(onSubmit)}>
+					<Field
+						error={errors?.name?.message}
+						name="name"
+						register={register}
+						options={{ required: 'Такое упражнение уже есть' }}
+						type="text"
+						placeholder="Название"
+					/>
+					<Field
+						error={errors?.times?.message}
+						name="times"
+						register={register}
+						options={{
+							valueIsNumber: true,
+							validate: (value) => value > 0,
+							required: 'Это значение уже указано' }}
+						placeholder="Количество"
+					/>
+					<div className={styles.wrapperButtons}>
+						<Button clickHandler={() => setType('reg')}>
+							Зарегистрироваться
+						</Button>
+					</div>
+				</form>
+			</div>
+	</>
+		)
+	}
+
 export default NewExercise

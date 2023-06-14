@@ -8,7 +8,7 @@ const Layout = ({ children, bgImage, heading = '', backLink = '/' }) => {
 	return (
 		<section
 			className={cn(styles.wrapper, {
-				[styles.otherPage]: !!heading
+				[styles.wrapper_otherPage]: !!heading
 			})}
 			style={{ backgroundImage: `url('${bgImage}')` }}
 		>
